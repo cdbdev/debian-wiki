@@ -156,7 +156,7 @@ This command will generate several important template files:
 - **debian/copyright** (provides the copyright summary data of the Debian package)
 
 ## 4.4 Modify template files
-In order to install files as a part of the system files, the `$(prefix)` value of `/usr/local` in the Makefile should be overridden to be `/usr`. This can be accommodated by the `debian/rules` file with the `override_dh_auto_install` target setting `“prefix=/usr”`.
+In order to install files as a part of the system files, the `$(prefix)` value of `/usr/local` in the Makefile should be overridden to be `/usr`. This can be accommodated by the `debian/rules` file with the `override_dh_auto_configure` target setting `“prefix=/usr”`.
 
 Example (install to /usr):
 ```bash
@@ -169,8 +169,8 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 %:
         dh $@
         
-override_dh_auto_install:
-	dh_auto_install -- prefix=/usr
+override_dh_auto_configure:
+	dh_auto_configure -- --prefix=/usr
 ```
 
 Example (several overrides):
