@@ -11,7 +11,11 @@ $ apt policy
 ```bash
 $ aptitude search '?narrow(?installed, !?origin(debian))'
 ```
-## Search specific package (installed) using regex
+## Search available versions of package using regex
+```bash
+aptitude search '.*linux-image.*'
+```
+## Search specific package using regex (only installed!)
 ```bash
 aptitude search "gedi.* ~i"
 ```
