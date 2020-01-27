@@ -192,7 +192,7 @@ override_dh_auto_build:
 	make doc
 
 override_dh_auto_test:
-	make test-only || echo "warning: tests failed" > tests.log
+	make test-only 2> test_err.log || echo "Warning: tests failed"
 ```
 
 ## 4.5 Build the DEB file
