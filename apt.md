@@ -8,7 +8,7 @@ $ apt policy
 $ apt show 'gedit'
 ```
 
-## Remove package and configuration + other packages which were required by this package but not required by any remaining packages
+### Remove package and configuration + other packages which were required by this package but not required by any remaining packages
 ```bash
 # aptitude purge <package name>
 ```
