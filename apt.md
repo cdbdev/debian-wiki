@@ -3,6 +3,10 @@
 ```bash
 $ apt policy
 ```
+### Get info on package
+```bash
+$ apt show 'gedit'
+```
 ## Searching
 ### List installed packages
 ```bash
