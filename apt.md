@@ -1,11 +1,12 @@
-### List installed packages
-```bash
-$ apt list --installed
-```
-
+## Administration
 ### Show policy settings
 ```bash
 $ apt policy
+```
+## Searching
+### List installed packages
+```bash
+$ apt list --installed
 ```
 ### Show all packages not from the Debian repositories (including manually installed .deb)
 ```bash
