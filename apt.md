@@ -11,9 +11,9 @@ $ apt policy
 ```bash
 $ aptitude search '?narrow(?installed, !?origin(debian))'
 ```
-## Search available versions of package using regex
+## Search available packages by name
 ```bash
-aptitude search '.*linux-image.*'
+aptitude search 'linux-image'
 ```
 ## Search specific package using regex (only installed!)
 ```bash
