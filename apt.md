@@ -7,8 +7,11 @@ $ apt list --installed
 ```bash
 $ apt policy
 ```
-
 ## Show all packages not from the Debian repositories (including manually installed .deb)
 ```bash
 $ aptitude search '?narrow(?installed, !?origin(debian))'
+```
+## Search specific package (installed)
+```bash
+aptitude search "xter.* ~i"
 ```
