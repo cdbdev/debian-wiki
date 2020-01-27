@@ -13,5 +13,5 @@ $ aptitude search '?narrow(?installed, !?origin(debian))'
 ```
 ## Search specific package (installed)
 ```bash
-aptitude search "xter.* ~i"
+aptitude search "gedi.* ~i"
 ```
