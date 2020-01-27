@@ -15,7 +15,7 @@ $ aptitude search '?narrow(?installed, !?origin(debian))'
 ```bash
 aptitude search 'linux-image'
 ```
-## Search specific package using regex (only installed!)
+## Search specific package (only installed!)
 ```bash
-aptitude search "gedi.* ~i"
+aptitude search 'gedi ~i'
 ```
