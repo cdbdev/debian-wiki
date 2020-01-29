@@ -7,7 +7,7 @@ Explanation of keys:
 - k**I**ll (send SIGKILL to all processes except init, forcing them to terminate immediately)
 - **S**ync (flush data to disk - Sync all mounted filesystems)
 - **U**nmount (remount all filesystems read-only)
-- re**B*oot (reboot the system, without unmounting partitions or syncing)
+- re**B**oot (reboot the system, without unmounting partitions or syncing)
 
 `REISUO` will do a shutdown rather than a restart.
 
