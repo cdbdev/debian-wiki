@@ -1,7 +1,7 @@
 # How to shutdown frozen Linux system that's not responding
 | Keyboard Shortcut        | Description                                                          |
 | ------------------------ |:-------------------------------------------------------------------- | 
-| Alt+SysRq+r Unraw        | Take control of keyboard back from X                                 | 
+| `Alt+SysRq+r` Unraw        | Take control of keyboard back from X                                 | 
 | Alt+SysRq+e Terminate    | Send SIGTERM to all processes, allowing them to terminate gracefully | 
 | Alt+SysRq+i Kill         | Send SIGKILL to all processes, forcing them to terminate immediately | 
 | Alt+SysRq+s Sync         | Flush data to disk                                                   | 
