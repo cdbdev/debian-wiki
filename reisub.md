@@ -2,11 +2,11 @@
 | Keyboard Shortcut        | Description                                                          |
 | ------------------------ |:-------------------------------------------------------------------- | 
 | `Alt+SysRq+r` Unraw        | Take control of keyboard back from X                                 | 
-| Alt+SysRq+e Terminate    | Send SIGTERM to all processes, allowing them to terminate gracefully | 
-| Alt+SysRq+i Kill         | Send SIGKILL to all processes, forcing them to terminate immediately | 
-| Alt+SysRq+s Sync         | Flush data to disk                                                   | 
-| Alt+SysRq+u Unmount      | Unmount and remount all filesystems read-only                        | 
-| Alt+SysRq+b Reboot       | Reboot                                                               | 
+| `Alt+SysRq+e` Terminate    | Send SIGTERM to all processes, allowing them to terminate gracefully | 
+| `Alt+SysRq+i` Kill         | Send SIGKILL to all processes, forcing them to terminate immediately | 
+| `Alt+SysRq+s` Sync         | Flush data to disk                                                   | 
+| `Alt+SysRq+u` Unmount      | Unmount and remount all filesystems read-only                        | 
+| `Alt+SysRq+b` Reboot       | Reboot                                                               | 
 
 
 Explanation of keys:
