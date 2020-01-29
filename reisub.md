@@ -18,3 +18,6 @@ Some ways to remember the key combination (mnemonic):
 - **R**aising **E**lephants **I**s **S**o **U**tterly **B**oring
 - **R**eboot **E**ven **I**f **S**ystem **U**tterly **B**roken
 - or simply the word **BUSIER** read backwards
+
+# Check if Sys RQ key is enabled
+At a console, `Alt+SysRq+Space` will display the available shortcuts.
