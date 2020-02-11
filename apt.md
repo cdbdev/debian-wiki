@@ -15,6 +15,10 @@ $ apt show 'gedit'
 ```bash
 $ apt rdepends gedit
 ```
+### Install from backports
+```bash
+# apt install -t buster-backports gedit
+```
 
 ## Searching
 ### List installed packages
