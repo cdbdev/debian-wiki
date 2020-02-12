@@ -19,6 +19,11 @@ $ apt rdepends gedit
 ```bash
 # apt install -t buster-backports gedit
 ```
+### Include packages from usb iso
+Add the following to `/etc/apt/sources.list`
+```bash
+deb [trusted=yes] file:/media/usb0/ buster main contrib non-free
+```
 
 ## Searching
 ### List installed packages
